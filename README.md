@@ -3,14 +3,14 @@ A ring view which show current progress with animation.
 
 This view used to show a ring, which sweep a angle. You can use this view to show progress, percent, or something else.  
 
-##Features:  
+## Features
 1. background ring's width and color can be changed by property.  
 2. percent ring's width, color can be set.  
 3. percent ring's color can be changed gradually by set startColor and endColor property.  
 4. percent ring's startAngle and sweep angle can be set.  
 5. you can set whether use animation or not when show percent ring, if use animation, you can set animation duration, default duration is 2000ms.  
 
-##Properties:  
+## Properties
 1. startAngle: at which angle percent ring start to be drawn. default is 90.  
 2. sweepAngle: sweep angle, the whole circle is 360.  
 3. bgRingColor: color of the background ring.  
@@ -34,7 +34,7 @@ This view used to show a ring, which sweep a angle. You can use this view to sho
 </declare-styleable>
 ```
 
-##Usage:
+## Usage
 ``` xml
 <com.hc.progressringview.RingPercentView
     android:layout_width="match_parent"
@@ -47,7 +47,7 @@ This view used to show a ring, which sweep a angle. You can use this view to sho
     app:duration="1500"/>
 ```
 
-The final effect looks like this:  
+## Final effect  
 ![效果图](https://raw.githubusercontent.com/houchen8902/RingPercentView/master/WX20171017-085316%402x.png)  
 
 夫君子之行，静以修身，俭以养德。非淡泊无以明志，非宁静无以致远。夫学须静也，才须学也。非学无以广才，非志无以成学。淫慢则不能励精，险躁则不能治性。年与时驰，意与岁去，遂成枯落，多不接世，悲守穷庐，将复何及！
