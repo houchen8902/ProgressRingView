@@ -11,15 +11,15 @@ This view used to show a ring, which sweep a angle. You can use this view to sho
 5. you can set whether use animation or not when show percent ring, if use animation, you can set animation duration, default duration is 2000ms.  
 
 ## Properties
-1. startAngle: at which angle percent ring start to be drawn. default is 90.  
-2. sweepAngle: sweep angle, the whole circle is 360.  
-3. bgRingColor: color of the background ring.  
-4. bgRingWidth: width of the background ring.  
-5. startColor: start color of percent ring.  
-6. endColor: end color of percent ring.  
+1. startAngle:       at which angle percent ring start to be drawn. default is 90.  
+2. sweepAngle:       sweep angle, the whole circle is 360.  
+3. bgRingColor:      color of the background ring.  
+4. bgRingWidth:      width of the background ring.  
+5. startColor:       start color of percent ring.  
+6. endColor:         end color of percent ring.  
 7. percentRingWidth: width of percent ring.  
-8. duration: is show animation, this is duration time, unit is ms. default is 2000.  
-9. showAnim: whether show animation when display percentRing, default is true.
+8. duration:         is show animation, this is duration time, unit is ms. default is 2000.  
+9. showAnim:         whether show animation when display percentRing, default is true.
 ``` xml
 <declare-styleable name="RingPercentView">
     <attr name="startAngle" format="float" />
